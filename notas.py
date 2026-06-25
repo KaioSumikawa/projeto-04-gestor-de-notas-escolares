@@ -10,4 +10,8 @@ while True:
     if opcao == 3:
         print('saindo...')
         break
-    
+    elif opcao == 1:
+        nota = float(input('digite a nota: '))
+        if nota < 0 or nota > 10:
+            print('nota invalida')
+        
