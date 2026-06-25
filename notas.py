@@ -17,4 +17,16 @@ while True:
         else:
             boletim.append(nota)
             print('nota adicionada')
-    
+    elif opcao == 2:
+        print('calculando media')
+        if len(boletim) == 0:
+            print('nenhuma nota cadastrada')
+        else :
+            media = sum(boletim) / len(boletim)
+            print(f'media: {media:.2f}')
+            if media >= 7:
+                print('aprovado')
+            else:
+                print('reprovado')
+    else:
+        print('opcao invalida')
