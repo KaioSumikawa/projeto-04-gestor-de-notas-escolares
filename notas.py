@@ -14,4 +14,7 @@ while True:
         nota = float(input('digite a nota: '))
         if nota < 0 or nota > 10:
             print('nota invalida')
-        
+        else:
+            boletim.append(nota)
+            print('nota adicionada')
+    
