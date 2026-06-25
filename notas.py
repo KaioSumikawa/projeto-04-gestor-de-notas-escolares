@@ -5,4 +5,6 @@ while True:
     print('2. ver media')
     print('3. sair')
 
+    opcao = int(input('escolha uma opcao'))
+
     
