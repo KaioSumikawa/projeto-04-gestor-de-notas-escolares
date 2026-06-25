@@ -7,4 +7,7 @@ while True:
 
     opcao = int(input('escolha uma opcao'))
 
+    if opcao == 3:
+        print('saindo...')
+        break
     
